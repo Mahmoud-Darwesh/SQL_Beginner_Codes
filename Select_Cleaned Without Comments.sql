@@ -1,0 +1,16 @@
+
+SELECT * FROM your_table_name;
+
+
+SELECT column1, column2, column3 FROM your_table_name;
+
+
+SELECT DISTINCT column1 FROM your_table_name;
+
+
+Select
+    column1,
+    column2,
+    (column2 + 10) AS new_value,
+    column3
+FROM your_table_name;
