@@ -1,0 +1,26 @@
+# Template SQL Queries
+
+This project contains generic SQL queries you can reuse for analyzing any table.
+
+## 📌 What's Inside
+
+- Select all data
+- Select specific columns
+- Get unique values from a column
+- Perform simple calculations (e.g., add 10 to a number)
+
+## 🛠 How to Use
+
+1. Replace `your_table_name` with your actual table name.
+2. Replace `column1`, `column2`, etc., with real column names from your table.
+3. # means Comments Remove it no problem of that 
+### Example
+-- Original
+SELECT column1 FROM your_table_name;
+
+-- After customizing
+SELECT gender FROM employees;
+
+
+
+Feel free to contact me if you have any questions or suggestions!
