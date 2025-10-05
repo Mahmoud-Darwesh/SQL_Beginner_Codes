@@ -57,7 +57,11 @@ Has at least 2 characters
 Examples: amy, alex, aaron
 Does not match: bob, cathy
 
+Remember underscore symbol (_) mean number of words and (%) mean all 
+Remeber also the logical methods (AND OR NOT) is used here 
 
+finally 
 
 Always replace your_table_name with the actual name of your table, 
+
 and you can customize the column name (e.g., first_name) depending on what you're filtering.
