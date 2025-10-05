@@ -1,0 +1,63 @@
+If you have table and want to choose specific row or multiple rows from it so lets do that 
+
+simply we use the where query for that 
+
+look at the code attached
+
+
+1. Select All Non-Male Employees
+SELECT *
+FROM table name
+WHERE NOT gender = "Male";
+
+
+Explanation:
+Retrieves all records where the gender is not "Male". This includes employees who are labeled as "Female" or any other non-male.
+
+2. Filter by First Name Pattern – LIKE "a___"
+SELECT *
+FROM
+WHERE first_name LIKE "a___";
+
+
+Explanation:
+Selects records where the first name:
+
+Starts with the letter a
+
+Is exactly 4 characters long
+
+Examples: alex, anna
+Does not match: amy, aaron, aiden
+
+3. Filter by First Name Length – LIKE "____"
+SELECT *
+FROM
+WHERE first_name LIKE "____";
+
+
+Explanation:
+Returns records where the first name is exactly 4 characters long, regardless of what letters it contains.
+
+Examples: john, emma
+Does not match: bob, steve
+
+4. Filter by First Name Starting with 'a' – LIKE "a_%"
+SELECT *
+FROM
+WHERE first_name LIKE "a_%";
+
+
+Explanation:
+Selects records where the first name:
+
+Starts with the letter a
+Has at least 2 characters
+
+Examples: amy, alex, aaron
+Does not match: bob, cathy
+
+
+
+Always replace your_table_name with the actual name of your table, 
+and you can customize the column name (e.g., first_name) depending on what you're filtering.
