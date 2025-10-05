@@ -16,4 +16,5 @@ WHERE first_name LIKE 'a___';
 -- Select rows where first_name is exactly 4 characters long
 SELECT *
 FROM your_schema.your_table
+
 WHERE first_name LIKE '____';
