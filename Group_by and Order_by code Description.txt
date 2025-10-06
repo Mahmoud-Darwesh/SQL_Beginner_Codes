@@ -1,0 +1,8 @@
+GROUP BY
+This clause is used to group rows that have the same values in specified columns.
+Example: Group rows by gender to get aggregated data for each gender.
+
+ORDER BY
+This clause is used to sort the result set based on one or more columns. By default, the sorting is ascending (ASC). You can also specify descending (DESC) if needed.
+Example: Order rows by a specific column (like age or name) to arrange the output.
+
